@@ -19,17 +19,17 @@ const projects = [
   {
     title: 'FedSpeak Sentiment: NLP on FOMC Minutes',
     description:
-      'Built a TF-IDF pipeline analyzing Fed meeting minutes from 2000–2024. Classified hawkish vs. dovish language with 87% accuracy using logistic regression. Visualized sentiment shifts across monetary policy cycles.',
-    tags: ['Python', 'scikit-learn', 'NLTK', 'Plotly'],
+      'Diagnosed and rebuilt a broken NLP pipeline for Federal Reserve meeting minutes (2000–2024). Replaced a flawed Harvard sentiment lexicon with the Loughran-McDonald financial dictionary to eliminate false positives on terms like "capital" and "liability." Benchmarked TF-IDF + K-Means clustering against sentence-transformer embeddings, and evaluated hawkish vs. dovish classification via logistic regression with TimeSeriesSplit cross-validation.',
+    tags: ['Python', 'scikit-learn', 'NLTK', 'sentence-transformers', 'Plotly'],
     github: 'https://github.com/JoelForson/ECON5200-Applied-Data-Analytics-in-Economics/tree/main/lab23',
     image: '/project-fedspeak.png',
     status: 'Complete',
   },
   {
-    title: 'Forecasting CPI with Prophet and ARIMA',
+    title: 'Time Series Forecasting: ARIMA, GARCH & Block Bootstrap',
     description:
-      'Forecasted CPI inflation using Prophet and ARIMA models. Prophet captured the COVID structural break that ARIMA missed, achieving MASE = 0.72 and beating the naïve benchmark.',
-    tags: ['Python', 'Prophet', 'statsmodels', 'pandas'],
+      'Diagnosed and corrected a misspecified ARIMA pipeline on U.S. CPI data, identifying three planted errors including non-stationary fitting and missing seasonality structure. Extended the analysis by fitting GARCH(1,1) to 6,287 daily S&P 500 log returns (2000–2024), finding volatility persistence of α + β = 0.9826 with a ~39.5 trading day shock half-life. Implemented block bootstrap resampling for distribution-free forecast intervals and built a reusable forecast_evaluation.py module.',
+    tags: ['Python', 'pmdarima', 'arch', 'statsmodels', 'FRED API'],
     github: 'https://github.com/JoelForson',
     image: '/project-cpi.png',
     status: 'Complete',
