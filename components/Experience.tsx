@@ -14,11 +14,10 @@ const workExperience = [
     company: 'Liberty Mutual Insurance',
     role: 'Data Analyst Intern',
     location: 'Boston, MA',
-    period: 'May 2026',
-    upcoming: true,
+    period: 'May 2026 – Present',
     bullets: [
-      'Will support business intelligence initiatives by querying, cleaning, and analyzing large insurance datasets to surface operational and risk insights for internal stakeholders.',
-      'Will build and maintain dashboards and reports that translate complex data into clear, actionable narratives for cross-functional teams.',
+      'Building an AI agent to help internal stakeholders access key information more easily, reducing the time spent searching across systems and documentation.',
+      'Conduct data analysis across large insurance datasets to surface operational and risk insights that inform business decisions.',
     ],
   },
   {
@@ -71,12 +70,31 @@ const education = {
 
 const leadership = [
   {
+    org: 'Northeastern Ghanaian Student Organization',
+    role: 'Community Service Coordinator',
+    location: 'Boston, MA',
+    period: 'March 2024 – Present',
+    bullets: [
+      'Founding e-board member, successfully leading the club from its inception to achieving full university recognition within a year.',
+      'Plan and manage events for 50+ members, overseeing all aspects to ensure smooth operation and high participant satisfaction.',
+    ],
+  },
+  {
+    org: 'Northeastern Black Business Student Association',
+    role: 'Upperclassman Representative',
+    location: 'Boston, MA',
+    period: 'April 2026 – Present',
+    bullets: [
+      'Serve as a peer mentor and advocate for upperclassman members, bridging communication between leadership and the broader membership.',
+    ],
+  },
+  {
     org: 'Northeastern Black Business Student Association',
     role: 'Lead Events Director',
     location: 'Boston, MA',
-    period: 'April 2024 – Present',
+    period: 'April 2024 – April 2026',
     bullets: [
-      'Lead the Events team in planning and executing 25+ events per year — networking mixers, technical workshops, and an annual Professional Conference with 100+ attendees; grew membership by 80%.',
+      'Led the Events team in planning and executing 25+ events per year — networking mixers, technical workshops, and an annual Professional Conference with 100+ attendees; grew membership by 80%.',
       'Cultivated partnerships with local and national businesses to secure sponsorships, increasing member engagement and participation by 35%.',
     ],
   },
