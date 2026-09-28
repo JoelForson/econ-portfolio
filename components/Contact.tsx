@@ -105,10 +105,7 @@ export function Contact() {
           {/* Right — resume embed */}
           <div className="flex flex-col gap-3">
             <div className="flex items-center justify-between">
-              <div>
-                <p className="text-xs font-medium tracking-widest uppercase text-forest dark:text-forest-light">Current Resume</p>
-                <p className="text-sm text-muted mt-0.5">Joel Forson — April 2026</p>
-              </div>
+              <p className="text-xs font-medium tracking-widest uppercase text-forest dark:text-forest-light">Current Resume</p>
               <a
                 href="/joel-forson-resume.pdf"
                 target="_blank"
@@ -124,7 +121,7 @@ export function Contact() {
               </a>
             </div>
 
-            <div className="flex-1 rounded-2xl overflow-hidden border border-border dark:border-zinc-800 shadow-lg bg-card dark:bg-card-dark min-h-0">
+            <div className="flex-1 rounded-2xl overflow-hidden border border-border dark:border-zinc-800 shadow-lg bg-card dark:bg-card-dark min-h-[700px]">
               <iframe
                 src="/joel-forson-resume.pdf"
                 className="w-full h-full"
