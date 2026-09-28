@@ -47,7 +47,7 @@ export function Hero() {
           </div>
 
           <div className="hidden lg:block">
-            <div className="group relative w-[27rem] h-[27rem] rounded-full overflow-hidden border-4 border-forest dark:border-forest-light shadow-xl shadow-forest/20 transition-transform duration-500 hover:scale-[1.03]">
+            <div className="group relative w-[27rem] h-[27rem] rounded-full overflow-hidden border-4 border-white shadow-xl shadow-forest/20 transition-transform duration-500 hover:scale-[1.03]">
               <Image
                 src="/headshot.jpg"
                 alt="Joel Forson"
