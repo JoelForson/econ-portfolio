@@ -3,21 +3,20 @@ const workExperience = [
     company: 'IBM',
     role: 'Customer Success Engineer',
     location: 'Chicago, IL',
-    period: 'September 2026',
-    upcoming: true,
+    period: 'September 2026 – Present',
     bullets: [
-      'Will partner with enterprise clients to drive adoption and value realization of IBM technology products, serving as a technical bridge between client needs and IBM\'s platform capabilities.',
-      'Will diagnose technical blockers, lead onboarding workflows, and develop client-facing documentation and success plans to reduce churn and accelerate time-to-value.',
+      'Partner with enterprise clients to drive adoption and value realization of IBM technology products, serving as a technical bridge between client needs and IBM\'s platform capabilities.',
+      'Diagnose technical blockers, lead onboarding workflows, and develop client-facing documentation and success plans to reduce churn and accelerate time-to-value.',
     ],
   },
   {
     company: 'Liberty Mutual Insurance',
     role: 'Data Analyst Intern',
     location: 'Boston, MA',
-    period: 'May 2026 – Present',
+    period: 'May 2026 – August 2026',
     bullets: [
-      'Building an AI agent to help internal stakeholders access key information more easily, reducing the time spent searching across systems and documentation.',
-      'Conduct data analysis across large insurance datasets to surface operational and risk insights that inform business decisions.',
+      'Built an AI agent to help internal stakeholders access key information more easily, reducing the time spent searching across systems and documentation.',
+      'Conducted data analysis across large insurance datasets to surface operational and risk insights that inform business decisions.',
     ],
   },
   {
