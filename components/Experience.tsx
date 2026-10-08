@@ -1,5 +1,16 @@
 const workExperience = [
   {
+    company: 'Capital One',
+    role: 'Data Analyst',
+    location: 'Richmond, VA',
+    period: 'August 2027',
+    upcoming: true,
+    bullets: [
+      'Will collaborate with colleagues across business, product, tech, sales, operations, design, data science, engineering, and finance in an environment that values unique insights, encourages new responsibilities, promotes continuous learning, and rewards innovation.',
+      'Will apply best-in-class analytical practices to quickly identify, build, and test the path to success.',
+    ],
+  },
+  {
     company: 'IBM',
     role: 'Customer Success Engineer',
     location: 'Chicago, IL',
