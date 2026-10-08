@@ -28,11 +28,11 @@ function PhotoCarousel() {
 
   return (
     <div
-      className="relative mt-20"
+      className="relative mt-20 max-w-md mx-auto"
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
     >
-      <div className="relative aspect-[16/7] rounded-2xl overflow-hidden border border-border dark:border-zinc-800 bg-zinc-100 dark:bg-zinc-900 shadow-lg">
+      <div className="relative aspect-[4/5] rounded-2xl overflow-hidden border border-border dark:border-zinc-800 bg-zinc-100 dark:bg-zinc-900 shadow-lg">
         {photos.map((photo, i) => (
           <div
             key={photo.src}
@@ -45,7 +45,7 @@ function PhotoCarousel() {
               src={photo.src}
               alt={photo.caption}
               fill
-              sizes="(max-width: 1024px) 100vw, 1200px"
+              sizes="(max-width: 500px) 100vw, 500px"
               className="object-cover"
               priority={i === 0}
             />
