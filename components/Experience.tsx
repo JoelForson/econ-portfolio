@@ -12,7 +12,7 @@ const workExperience = [
   },
   {
     company: 'IBM',
-    role: 'Customer Success Engineer',
+    role: 'Customer Success Engineer Co-Op',
     location: 'Chicago, IL',
     period: 'September 2026 – Present',
     bullets: [
