@@ -8,6 +8,7 @@ const photos = [
   { src: '/about-2.jpg', caption: 'Suited up for a BBSA event — building community in business school.' },
   { src: '/about-3.jpg', caption: 'Exploring an abandoned lighthouse in Curaçao.' },
   { src: '/about-4.jpg', caption: 'Zip-lining across the jungle canopy.' },
+  { src: '/about-5.jpg', caption: 'Admiring the scenery at the MFA in Boston.' },
 ]
 
 const AUTO_ROTATE_MS = 5000
